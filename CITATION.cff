@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use SocioFM in your research, please cite this software."
+title: "SocioFM: Compute-Efficient Foundation Models for Societal Event Streams"
+type: software
+version: 1.0.0
+date-released: 2026-07-26
+authors:
+  - family-names: "Yildirim"
+    given-names: "Turgay"
+    orcid: "https://orcid.org/0009-0007-8648-0373"
+    affiliation: "Independent Researcher, Antalya, Türkiye"
+repository-code: "https://github.com/thegenius0707/sociofm"
+url: "https://github.com/thegenius0707/sociofm"
+license: MIT
+keywords:
+  - foundation models
+  - societal event streams
+  - computational social science
+  - temporal generalization
+  - media bias
+  - compute-efficient machine learning
+abstract: >-
+  SocioFM is an open family of compact causal language models trained on
+  structured societal event streams. The software release provides the data
+  pipeline, chronological benchmarking framework, model training code,
+  downstream evaluation, geographic and media audits, calibration analyses,
+  statistical inference, and reproducible manuscript visualizations.
