@@ -121,3 +121,12 @@ before creating a GitHub release.
 
 Source code is released under the MIT License. Dataset and model records include
 their own provenance and reuse documentation.
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21576730.svg)](https://doi.org/10.5281/zenodo.21576730)
+[![Model DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21577245.svg)](https://doi.org/10.5281/zenodo.21577245)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21577601.svg)](https://doi.org/10.5281/zenodo.21577601)
+
+## Archived research objects
+
+- Software release: https://doi.org/10.5281/zenodo.21576730
+- Model checkpoints: https://doi.org/10.5281/zenodo.21577245
+- Processed dataset: https://doi.org/10.5281/zenodo.21577601

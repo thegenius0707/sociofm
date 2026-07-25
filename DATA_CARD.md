@@ -42,3 +42,9 @@ compute-efficient domain pretraining.
 GDELT records machine-coded, news-reported events. Event counts represent the
 observed media-derived event stream rather than a census of latent societal
 incidence.
+## Archived record
+
+The versioned processed dataset is available at
+https://doi.org/10.5281/zenodo.21577601. The associated software is available at
+https://doi.org/10.5281/zenodo.21576730, and the five reported model checkpoints are
+available at https://doi.org/10.5281/zenodo.21577245.

@@ -34,3 +34,9 @@ over structured societal event streams.
 The models inherit the machine-coding errors, source selection and geographic
 coverage patterns of the underlying event database. Output probabilities and
 generated sequences are not measurements of unobserved societal incidence.
+## Archived records
+
+The five reported checkpoints are available at
+https://doi.org/10.5281/zenodo.21577245. The associated software is available at
+https://doi.org/10.5281/zenodo.21576730, and the processed training and benchmark data
+are available at https://doi.org/10.5281/zenodo.21577601.
