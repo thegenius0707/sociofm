@@ -1,0 +1,14 @@
+{
+  "common_capacity_steps": 100000,
+  "context_length": 256,
+  "continuation_steps": 200000,
+  "effective_batch_sequences": 32,
+  "learning_rate": 0.0003,
+  "logging_steps": 100,
+  "save_steps": 2000,
+  "trainer_seed": 42,
+  "training_shard_seed": 7,
+  "validation_shard_seed": 17,
+  "warmup_steps": 2000,
+  "weight_decay": 0.1
+}

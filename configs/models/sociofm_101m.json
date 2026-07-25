@@ -1,0 +1,9 @@
+{
+  "architecture": "GPT2LMHeadModel",
+  "attention_heads": 10,
+  "context_length": 256,
+  "hidden_size": 640,
+  "layers": 14,
+  "measured_parameters": 101258880,
+  "tokenizer": "gpt2"
+}

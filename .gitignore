@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Large research artifacts
+data/
+checkpoints/
+logs/
+results/*.json
+results/*.npz
+results/*.npy
+results/*.parquet
+results/*.csv
+outputs/
+figures/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.zip
+*.tar
+*.tar.gz
+*.tar.zst
+
+# Documents and local system files
+*.docx
+*.pdf
+.DS_Store
+Thumbs.db

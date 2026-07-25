@@ -1,0 +1,119 @@
+{
+  "created_at_utc": "2026-07-25T22:03:06Z",
+  "excluded_categories": [
+    "raw and cached GDELT archives",
+    "processed dataset shards",
+    "embedding caches",
+    "intermediate model checkpoints",
+    "training logs",
+    "rendered figures and manuscript documents",
+    "superseded v1 and v2 scripts"
+  ],
+  "files": [
+    {
+      "destination": "src/sociofm/data/smoke_test.py",
+      "release_sha256": "61ee0b8ddda0fe49609d102cc0c6191b3bd18203dcff99b812a08b09130c412e",
+      "source": "scripts/smoke_test.py",
+      "source_sha256": "61ee0b8ddda0fe49609d102cc0c6191b3bd18203dcff99b812a08b09130c412e"
+    },
+    {
+      "destination": "src/sociofm/data/build_dataset.py",
+      "release_sha256": "d951ea1a2f94bb7f33e6efb74982a268b9050963f8e02a7967a0b7e8b4f39e1d",
+      "source": "scripts/build_dataset.py",
+      "source_sha256": "8d5b0b3eecc3c5f03e670814fc515c73670f28fa8bbae2af33472494fd98f2b6"
+    },
+    {
+      "destination": "src/sociofm/data/collect_monthly.py",
+      "release_sha256": "c61cea716b7ab43a5f5e6b0aa547c14a3d8ad8b729e265cc5a73342c7327b29f",
+      "source": "scripts/collect_monthly.py",
+      "source_sha256": "c61cea716b7ab43a5f5e6b0aa547c14a3d8ad8b729e265cc5a73342c7327b29f"
+    },
+    {
+      "destination": "src/sociofm/data/prepare_splits.py",
+      "release_sha256": "a519cab3e6e78c591b3943533556500d737e05011f8d6ff394cb16a0977a37d2",
+      "source": "scripts/prepare_splits.py",
+      "source_sha256": "a519cab3e6e78c591b3943533556500d737e05011f8d6ff394cb16a0977a37d2"
+    },
+    {
+      "destination": "src/sociofm/training/train_compact.py",
+      "release_sha256": "b69dbbf9460101bac586950f55a2c437119f8ae7869d5f4c88b35ef7e0f1ffe0",
+      "source": "scripts/train_compact.py",
+      "source_sha256": "b69dbbf9460101bac586950f55a2c437119f8ae7869d5f4c88b35ef7e0f1ffe0"
+    },
+    {
+      "destination": "src/sociofm/evaluation/evaluate_model.py",
+      "release_sha256": "60282bc1c3daeb982f27e8e8b249c3182e198e1f95e5123a682b52da8f69e384",
+      "source": "scripts/evaluate_model.py",
+      "source_sha256": "60282bc1c3daeb982f27e8e8b249c3182e198e1f95e5123a682b52da8f69e384"
+    },
+    {
+      "destination": "src/sociofm/evaluation/benchmark_baselines.py",
+      "release_sha256": "04a2661099b34a78c2991a605619b1c4554a997ef36f9cac036ac3c7f9ad0fad",
+      "source": "scripts/benchmark_baselines.py",
+      "source_sha256": "04a2661099b34a78c2991a605619b1c4554a997ef36f9cac036ac3c7f9ad0fad"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_downstream_suite.py",
+      "release_sha256": "5280321dc2c4e8c8471f4b4fbe4066f224b5b16229952693d2a16e72b71d83b4",
+      "source": "scripts/run_downstream_suite.py",
+      "source_sha256": "5280321dc2c4e8c8471f4b4fbe4066f224b5b16229952693d2a16e72b71d83b4"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_robustness.py",
+      "release_sha256": "b98057f990d2d4fcb47906166e1dda3432fbbefb7d24cafcba8aa26e1e7269a2",
+      "source": "scripts/run_robustness_patch.py",
+      "source_sha256": "4063e8a09fa2a24d1e0459062b1d6ef563a93b33a0ecd6efae0e6aa9ec6a7b54"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_geographic_generalization.py",
+      "release_sha256": "6fc3270992c49410072aa99ebf5ea9dc0c6cae5c820e3755d7815a51bcef9da6",
+      "source": "scripts/run_geographic_v2.py",
+      "source_sha256": "e7fb07245703a73833a80c55260807870f82a2f1dae0a43415236b655037f07f"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_lm_audit.py",
+      "release_sha256": "73b55ba23e6b18a89841e825ac8d19f74ac5000f55b9c594f145327ea2c3c44a",
+      "source": "scripts/run_lm_audit.py",
+      "source_sha256": "73b55ba23e6b18a89841e825ac8d19f74ac5000f55b9c594f145327ea2c3c44a"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_representation_benchmark.py",
+      "release_sha256": "2f9b0ae801add147db408c9c5f148cfa224671d116607c03f7126c355a31a436",
+      "source": "scripts/run_representation_benchmark_v3.py",
+      "source_sha256": "221228a3634043f3da9f7daade9d21e5f0e17722084efd4613d5ac164972e906"
+    },
+    {
+      "destination": "src/sociofm/evaluation/run_final_statistics.py",
+      "release_sha256": "284638ddd3f73d0856b9a52a19be1a6146eccbd5c8a6646deaf47c2c2f38f690",
+      "source": "scripts/run_final_prefigure_suite.py",
+      "source_sha256": "a9fa98164bc37aef4878ced303a7fcbcd793e63584793bb8b060ae6ca03adfe1"
+    },
+    {
+      "destination": "src/sociofm/visualization/figure1_data_landscape.py",
+      "release_sha256": "70c82a5536b9ce866d2ddf36a05fae7e212885a8adf92fd0bf6b7b3c7f266f13",
+      "source": "scripts/generate_figure1_premium_v3.py",
+      "source_sha256": "eda158085637af113b16f1cbbe9ba264973bca6046eca91cd65fe97a7a3a14a1"
+    },
+    {
+      "destination": "src/sociofm/visualization/figure2_capacity_transfer.py",
+      "release_sha256": "b9e3306d6cb6ceafd3d3e7c39a358378e4d844930c649d8212a985f25b985a3b",
+      "source": "library_sources/generate_figure2_scaling_landscape_v3.py",
+      "source_sha256": "aa35f50aedd65e3b6c090c83fba618cf26eaf625d20ec49bd19c9d2c7c547623"
+    },
+    {
+      "destination": "src/sociofm/visualization/figure3_geographic_media.py",
+      "release_sha256": "f54c4acc228201e8216f8b40fed16bfcf5b479fa0ccf46814ec536ca2ce4aaa6",
+      "source": "library_sources/generate_figure3_geographic_media.py",
+      "source_sha256": "a1500a267d51bbbab457a08264d872e1127c53fa18eebf02246eca566702170c"
+    },
+    {
+      "destination": "src/sociofm/visualization/figure4_transfer_calibration.py",
+      "release_sha256": "f9fa3d08c8e3e7dae19f51349d098b0cd2cdec19789328d7f8e474190375f1d9",
+      "source": "library_sources/generate_figure4_transfer_calibration_v2.py",
+      "source_sha256": "6da88deeb89d97134fa4b93fdc03704fbe3f44b7c8465ac309c0d9ace8e30ff8"
+    }
+  ],
+  "release_name": "SocioFM source release",
+  "source_root": ".",
+  "version": "0.1.0"
+}

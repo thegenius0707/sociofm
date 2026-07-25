@@ -1,0 +1,7 @@
+{
+  "forecast_horizon": "next calendar day",
+  "test": "2025-07-01 through 2025-12-31",
+  "train": "target date before 2025-01-01",
+  "unit": "target_date",
+  "validation": "2025-01-01 through 2025-06-30"
+}
